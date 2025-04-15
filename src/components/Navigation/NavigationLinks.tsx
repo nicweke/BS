@@ -23,7 +23,7 @@ const NavigationLinks = ({ className = "" }: NavigationLinksProps) => {
           asChild
         >
           <Link href="/">
-            <ParagraphText text="Studio" mode="sm" className="font-medium" />
+            <ParagraphText text="Web & SEO" mode="sm" className="font-medium" />
           </Link>
         </Button>
         <Button
@@ -34,7 +34,7 @@ const NavigationLinks = ({ className = "" }: NavigationLinksProps) => {
           asChild
         >
           <Link href="/agency">
-            <ParagraphText text="Agency" mode="sm" className="font-medium" />
+            <ParagraphText text="Creative Services" mode="sm" className="font-medium" />
           </Link>
         </Button>
       </div>

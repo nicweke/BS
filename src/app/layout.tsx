@@ -1,14 +1,17 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Jost } from "next/font/google";
+
 import "./globals.css";
 import Intro from "@/components/Intro";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
+
+const font = Jost({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Melriver –  we create, manage and grow brands.",
+  title: "BS Designs –  Crafting digital identities that connect.",
   description:
-    "Melriver crafts outstanding direct-to-consumer brands with the common ambition to offer true craftsmanship, timeless products that are carbon neutral – and this without ever making any concessions.",
+    "We fuel next-gen brands with smart design and zero-compromise execution.",
 };
 
 export default function RootLayout({
@@ -18,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={font.className}>{children}</body>
     </html>
   );
 }

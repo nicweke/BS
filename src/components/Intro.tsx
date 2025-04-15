@@ -82,7 +82,7 @@ const Intro = () => {
       >
         <ParagraphText
           ref={paragraphRef}
-          text="Melriver"
+          text="BS Designs"
           mode="7xl"
           className="font-medium text-white"
         />

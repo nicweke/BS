@@ -15,14 +15,14 @@ const HeroSection: React.FC = () => {
       <div>
         <Spacer spaceingAmount={2} />
         <HeaderText
-          text="We build outstanding brands. "
+          text="Don’t Just Be Online, Be Unforgettable. "
           mode="h1"
           className="text-5xl sm:text-6xl font-medium lg:text-7xl w-full mx-auto"
         />
         <Spacer spaceingAmount={4} />
         <ParagraphText
           className="font-medium"
-          text="We craft outstanding direct-to-consumer brands with the common ambition to offer true craftsmanship, timeless products that are carbon neutral – and this without ever making any concessions."
+          text="Born in Nairobi, built for the world — We’re a forward-thinking studio redefining the digital landscape through innovative design, seamless development, and user-centered research. No shortcuts. No compromises. Just bold, forward-thinking solutions that connect, engage, and inspire."
         />
       </div>
       <Footer className="hidden md:block" />

@@ -1,4 +1,4 @@
-import hillsMadeProjectImage from "../../../../public/projectImages/hillsMade.png";
+import fieldProjectImage from "../../../../public/projectImages/fieldimage.png";
 import highSnobiety from "../../../../public/highsnobiety-logo-vector.svg";
 import gq from "../../../../public/gq-logo.svg";
 import productHunt from "../../../../public/product-hunt.svg";
@@ -34,11 +34,17 @@ export const sustainabilityData = [
 
 export const studioProjectData = [
   {
-    imageUrl: hillsMadeProjectImage,
-    linkUrl: "https://hillsmade.com/?ref=melriver",
-    headerText: "Hills",
-    paragraphText: "hillsmade.com",
+    imageUrl: fieldProjectImage,
+    linkUrl: "https://fieldtechsystems.co.ke/?ref=bsdesigns",
+    headerText: "Fieldtech Systems",
+    paragraphText: "fieldtechsystems.co.ke",
   },
+  // {
+  //   imageUrl: fieldProjectImage,
+  //   linkUrl: "https://fieldtechsystems.co.ke/?ref=bsdesigns",
+  //   headerText: "Fieldtech Systems",
+  //   paragraphText: "fieldtechsystems.co.ke",
+  // }
 ];
 
 export const logos = [

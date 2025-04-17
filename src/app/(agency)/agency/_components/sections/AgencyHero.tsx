@@ -15,14 +15,15 @@ const HeroSection: React.FC = () => {
       <div className="">
         <Spacer spaceingAmount={2} />
         <HeaderText
-          text="Tailor-made Shopify stores."
+          text="Design That Moves Business Forward."
           mode="h1"
           className="text-5xl xs:text-6xl font-medium lg:text-7xl w-full  mx-auto"
         />
         <Spacer spaceingAmount={4} />
         <ParagraphText
           className="font-medium"
-          text="We build state-of-the-art fashion, lifestyle, luxury eCommerce stores on Shopify & Shopify Plus by bridging the gap between branding and conversion."
+          text="We create impactful visual and content solutions for brands—blending strategy and storytelling through design, branding, photography, video, copywriting, and animation."
+          // text="We deliver high-impact creative solutions for fashion, lifestyle, and luxury brands by seamlessly blending strategic branding with compelling visual storytelling. Our services include Graphic Design, Logo Design & Visual Identity, Branding & Rebranding, Motion Graphics, Photography & Product Shoots, Copywriting (web, ads, landing pages), Blog & Article Writing, SEO Content Strategy, Video Production & Editing, Animation & Explainer Videos, and Voiceover & Scriptwriting."
         />
       </div>
       <Footer className="hidden md:block" />

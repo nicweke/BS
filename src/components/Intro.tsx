@@ -3,6 +3,7 @@ import React, { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import ParagraphText from "./Text/ParagraphText";
+import Image from "next/image";
 
 const Intro = () => {
   const introRef = useRef(null);
@@ -78,8 +79,9 @@ const Intro = () => {
       <div
         ref={mainLayerRef}
         className="h-screen w-full flex bg-black justify-center 
-          items-center top-0 left-0 z-0 "
+          items-center top-0 left-0 z-0  space-x-2"
       >
+        <Image src="/logo1.png" alt="Logo" width={100} height={100}  />
         <ParagraphText
           ref={paragraphRef}
           text="BS Designs"

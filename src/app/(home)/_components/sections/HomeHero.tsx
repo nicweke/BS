@@ -24,6 +24,11 @@ const HeroSection: React.FC = () => {
           className="font-medium"
           text="Born in Nairobi, built for the world — We’re a forward-thinking studio redefining the digital landscape through innovative design, seamless development, and user-centered research. No shortcuts. No compromises. Just bold, forward-thinking solutions that connect, engage, and inspire."
         />
+        <Spacer spaceingAmount={2} />
+        <ParagraphText
+          className="font-medium"
+          text="From UI/UX design to full-stack development, we build sleek e-commerce sites, custom apps, CMS, and API-powered portals. With ongoing support and maintenance, your digital presence stays fast, secure, and future-ready. Let’s build something exceptional."
+        />
         
       </div>
       <Footer className="hidden md:block" />

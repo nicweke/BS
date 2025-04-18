@@ -1,4 +1,7 @@
 import fieldProjectImage from "../../../../public/projectImages/fieldimage.png";
+import website1Image from "../../../../public/projectImages/website1.jpg";
+import website2Image from "../../../../public/projectImages/website2.jpeg";
+import mobileImage from "../../../../public/projectImages/mobile.jpg";
 import highSnobiety from "../../../../public/highsnobiety-logo-vector.svg";
 import gq from "../../../../public/gq-logo.svg";
 import productHunt from "../../../../public/product-hunt.svg";
@@ -39,12 +42,24 @@ export const studioProjectData = [
     headerText: "Fieldtech Systems",
     paragraphText: "fieldtechsystems.co.ke",
   },
-  // {
-  //   imageUrl: fieldProjectImage,
-  //   linkUrl: "https://fieldtechsystems.co.ke/?ref=bsdesigns",
-  //   headerText: "Fieldtech Systems",
-  //   paragraphText: "fieldtechsystems.co.ke",
-  // }
+  {
+    imageUrl: website1Image,
+    linkUrl: "https://fieldtechsystems.co.ke/?ref=bsdesigns",
+    headerText: "",
+    paragraphText: "",
+  },
+  {
+    imageUrl: website2Image,
+    linkUrl: "https://fieldtechsystems.co.ke/?ref=bsdesigns",
+    headerText: "",
+    paragraphText: "",
+  },
+  {
+    imageUrl: mobileImage,
+    linkUrl: "https://fieldtechsystems.co.ke/?ref=bsdesigns",
+    headerText: "",
+    paragraphText: "",
+  }
 ];
 
 export const logos = [

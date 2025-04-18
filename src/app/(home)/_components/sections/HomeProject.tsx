@@ -6,7 +6,7 @@ import RenderData from "../../../../components/RenderData";
 
 const ProjectSection: React.FC = () => {
   return (
-    <section className=" lg:w-full pb-14">
+    <section className=" lg:w-full pb-14 flex flex-col space-y-9 ">
       <RenderData data={studioProjectData}>
         {(project, index) => (
           <ProjectCard

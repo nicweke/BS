@@ -16,7 +16,7 @@ export const agencyProjectData = [
   }, */
   {
     imageUrl: graphicProjectImage,
-    linkUrl: "",
+    linkUrl: "#",
     headerText: "Graphic Design",
     paragraphText: "Discover more",
   },
@@ -28,7 +28,7 @@ export const agencyProjectData = [
   },
   {
     imageUrl: videoProjectImage,
-    linkUrl: "/branding",
+    linkUrl: "",
     headerText: "Motion Design, Video Production and Editing",
     paragraphText: "Discover more",
   },

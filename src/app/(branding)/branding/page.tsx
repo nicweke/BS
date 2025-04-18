@@ -1,11 +1,11 @@
 import React from "react";
 import Container from "@/components/Container";
-import HeroSection from "./_components/sections/AgencyHero";
+import HeroSection from "./_components/sections/BrandingHero";
 import Navigation from "@/components/Navigation/Navigation";
 import Footer from "@/components/Footer";
 import Intro from "@/components/Intro";
 import { Metadata } from "next";
-import ProjectSection from "./_components/sections/AgencyProject";
+import ProjectSection from "./_components/sections/BrandingProject";
 
 export const metadata: Metadata = {
   title: "BS Designs –  Crafting digital identities that connect.",

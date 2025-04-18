@@ -24,6 +24,7 @@ const HeroSection: React.FC = () => {
           className="font-medium"
           text="Born in Nairobi, built for the world — We’re a forward-thinking studio redefining the digital landscape through innovative design, seamless development, and user-centered research. No shortcuts. No compromises. Just bold, forward-thinking solutions that connect, engage, and inspire."
         />
+        
       </div>
       <Footer className="hidden md:block" />
     </section>

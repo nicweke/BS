@@ -3,6 +3,7 @@
 import graphicProjectImage from "../../../../../public/projectImages/graphic-collage.jpg";
 import photographyProjectImage from "../../../../../public/projectImages/photography.jpg";
 import videoProjectImage from "../../../../../public/projectImages/video-editing.jpg";
+import brandingProjectImage from "../../../../../public/projectImages/branding.jpg";
 import boredOfAuthorityProjectImage from "../../../../../public/projectImages/boredOfAuthority.png";
 import holidayCampsProjectImage from "../../../../../public/projectImages/holidayCamps.png";
 import skinElixirProjectImage from "../../../../../public/projectImages/skinElixir.png";
@@ -30,6 +31,13 @@ export const agencyProjectData = [
     imageUrl: videoProjectImage,
     linkUrl: "/branding",
     headerText: "Motion Design, Video Production and Editing",
+    paragraphText: "Discover more",
+  },
+  ,
+  {
+    imageUrl: brandingProjectImage,
+    linkUrl: "/branding",
+    headerText: "Branding",
     paragraphText: "Discover more",
   },
   // {

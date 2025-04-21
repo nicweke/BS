@@ -9,7 +9,7 @@ import { logos } from "../../_data/data";
 const FeaturedSection: React.FC = () => {
   return (
     <section>
-      <ContentCard title={"Featured In"}>
+      <ContentCard title={"Some Technologies We Use"}>
         <Carousel>
           <RenderData data={logos}>
             {(logo, index) => (

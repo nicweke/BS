@@ -16,13 +16,13 @@ const Footer = ({ className }: FooterProps) => {
         <ParagraphText
           className="font-bold"
           mode="sm"
-          text="© Melriver, All rights reserved"
+          text="© BS Designs, All rights reserved"
         />
-        <ParagraphText
+        {/* <ParagraphText
           className=" text-zinc-500 font-medium"
           mode="sm"
           text="‍No cookie Policy. No privacy policy."
-        />
+        /> */}
       </Container>
       <Spacer spaceingAmount={6} className="md:hidden" />
     </footer>

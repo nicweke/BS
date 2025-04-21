@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 
+
 interface NavigationLinksProps {
   className?: string;
 }
@@ -37,18 +38,20 @@ const NavigationLinks = ({ className = "" }: NavigationLinksProps) => {
             <ParagraphText text="Creative & Visual Design" mode="sm" className="font-medium" />
           </Link>
         </Button>
-        {/* <Button
+        <Button
           className={cn("rounded-3xl py-1 px-2 h-fit", {
             "bg-transparent hover:bg-zinc-300 text-black":
-              pathname !== "/branding", // Apply bg-transparent if pathname is not '/agency'
+              pathname !== "/contact", // Apply bg-transparent if pathname is not '/agency'
           })}
           asChild
         >
-          <Link href="/branding">
-            <ParagraphText text="Branding" mode="sm" className="font-medium" />
+          <Link href="/contact">
+            <ParagraphText text="Contact Us" mode="sm" className="font-medium" />
           </Link>
-        </Button> */}
+        </Button>
+       
       </div>
+     
     </div>
   );
 };

@@ -2,10 +2,13 @@ import fieldProjectImage from "../../../../public/projectImages/fieldimage.png";
 import website1Image from "../../../../public/projectImages/website1.jpg";
 import website2Image from "../../../../public/projectImages/website2.jpeg";
 import mobileImage from "../../../../public/projectImages/mobile.jpg";
-import highSnobiety from "../../../../public/highsnobiety-logo-vector.svg";
-import gq from "../../../../public/gq-logo.svg";
-import productHunt from "../../../../public/product-hunt.svg";
-import elle from "../../../../public/elle-logo.svg";
+import react from "../../../../public/react.svg";
+import next from "../../../../public/next.svg";
+import webflow from "../../../../public/webflow.svg";
+import figma from "../../../../public/figma.svg";
+import typescript from "../../../../public/typescript.svg";
+import node from "../../../../public/nodejs.svg";
+import postgres from "../../../../public/postgres.svg";
 
 export const sustainabilityData = [
   {
@@ -63,8 +66,11 @@ export const studioProjectData = [
 ];
 
 export const logos = [
-  { src: highSnobiety, alt: "High Snobiety Logo" },
-  { src: gq, alt: "GQ Logo" },
-  { src: productHunt, alt: "Product Hunt Logo" },
-  { src: elle, alt: "Elle Logo" },
+  { src: react, alt: "React Logo" },
+  { src: next, alt: "Next Logo" },
+  { src: webflow, alt: "Webflow Logo" },
+  { src: figma, alt: "Figma Logo" },
+  { src: typescript, alt: "Typescript Logo" },
+  { src: node, alt: "Node Logo" },
+  { src: postgres, alt: "Postgres Logo" },
 ];

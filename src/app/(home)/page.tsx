@@ -32,8 +32,8 @@ const Home: React.FC = () => {
             <Spacer spaceingAmount={8} className="md:hidden" />
             <ProjectSection />
             <FeaturedSection />
-            <Spacer spaceingAmount={8} className="" />
-            <SustainabilitySection /> <Spacer spaceingAmount={4} />
+            {/* <Spacer spaceingAmount={8} className="" />
+            <SustainabilitySection /> <Spacer spaceingAmount={4} /> */}
           </div>
         </Container>
       </main>

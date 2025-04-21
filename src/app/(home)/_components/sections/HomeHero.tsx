@@ -4,6 +4,7 @@ import ParagraphText from "@/components/Text/ParagraphText";
 import Spacer from "@/components/Spacer";
 import Footer from "@/components/Footer";
 import Navigation from "@/components/Navigation/Navigation";
+import CalendlyBadge from "@/components/CalendlyBadge";
 
 const HeroSection: React.FC = () => {
   return (
@@ -22,7 +23,7 @@ const HeroSection: React.FC = () => {
         <Spacer spaceingAmount={4} />
         <ParagraphText
           className="font-medium"
-          text="Born in Nairobi, built for the world — We’re a forward-thinking studio redefining the digital landscape through innovative design, seamless development, and user-centered research. No shortcuts. No compromises. Just bold, forward-thinking solutions that connect, engage, and inspire."
+          text="Born in Nairobi, built for the world — We're a bold studio reshaping digital experiences through smart design, seamless development, and user-first research. No shortcuts. No compromises. Just impactful, forward-thinking solutions."
         />
         <Spacer spaceingAmount={2} />
         <ParagraphText
@@ -31,6 +32,7 @@ const HeroSection: React.FC = () => {
         />
         
       </div>
+      {/* <CalendlyBadge /> */}
       <Footer className="hidden md:block" />
     </section>
   );

@@ -4,7 +4,7 @@ import ParagraphText from "@/components/Text/ParagraphText";
 import Spacer from "@/components/Spacer";
 import Footer from "@/components/Footer";
 import Navigation from "@/components/Navigation/Navigation";
-import CalendlyBadge from "@/components/CalendlyBadge";
+
 
 const HeroSection: React.FC = () => {
   return (

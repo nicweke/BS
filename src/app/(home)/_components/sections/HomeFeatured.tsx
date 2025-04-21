@@ -17,8 +17,8 @@ const FeaturedSection: React.FC = () => {
                 <Image
                   src={logo.src}
                   alt={logo.alt}
-                  width={500}
-                  height={500}
+                  width={1500}
+                  height={1500}
                   className="object-contain"
                 />
               </div>

@@ -11,6 +11,7 @@ import SustainabilitySection from "./_components/sections/HomeSustainability";
 import FeaturedSection from "./_components/sections/HomeFeatured";
 import type { Metadata } from "next";
 
+
 export const metadata: Metadata = {
   title: "BS Designs –  Crafting digital identities that connect.",
   description:
@@ -37,6 +38,7 @@ const Home: React.FC = () => {
           </div>
         </Container>
       </main>
+ 
       <Footer className="md:hidden" />
     </>
   );

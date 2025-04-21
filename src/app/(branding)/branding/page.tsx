@@ -26,6 +26,7 @@ const page = () => {
           <ProjectSection />
         </Container>
       </main>
+      
       <Footer className="md:hidden " />
     </>
   );

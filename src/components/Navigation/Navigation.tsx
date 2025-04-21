@@ -7,6 +7,7 @@ import Container from "../Container";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 
+
 interface NavigationProps {
   className?: string;
   
@@ -23,6 +24,7 @@ const Navigation = ({ className }: NavigationProps) => {
         {/* Multi Button */}
         <NavigationLinks className="md:hidden" />
       </Container>
+      
     </nav>
   );
 };

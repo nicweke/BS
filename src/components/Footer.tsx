@@ -3,6 +3,7 @@ import ParagraphText from "./Text/ParagraphText";
 import Container from "./Container";
 import Spacer from "./Spacer";
 import { cn } from "@/lib/utils";
+// import CalendlyBadge from "@/components/CalendlyBadge";
 
 interface FooterProps {
   className?: string;
@@ -13,6 +14,7 @@ const Footer = ({ className }: FooterProps) => {
     <footer className={cn(`${className} w-full `)}>
       <Spacer spaceingAmount={6} />
       <Container className="text-left lg:p-0 md:p-0">
+      {/* <CalendlyBadge /> */}
         <ParagraphText
           className="font-bold"
           mode="sm"

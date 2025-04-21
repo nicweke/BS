@@ -9,7 +9,7 @@ import { logos } from "../../_data/data";
 const FeaturedSection: React.FC = () => {
   return (
     <section>
-      <ContentCard title={"Featured In"}>
+      <ContentCard title={"Technologies we use"}>
         <Carousel>
           <RenderData data={logos}>
             {(logo, index) => (
@@ -17,8 +17,8 @@ const FeaturedSection: React.FC = () => {
                 <Image
                   src={logo.src}
                   alt={logo.alt}
-                  width={500}
-                  height={500}
+                  width={1500}
+                  height={1500}
                   className="object-contain"
                 />
               </div>

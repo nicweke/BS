@@ -5,7 +5,20 @@ import mobileImage from "../../../../public/projectImages/mobile.jpg";
 import highSnobiety from "../../../../public/highsnobiety-logo-vector.svg";
 import gq from "../../../../public/gq-logo.svg";
 import productHunt from "../../../../public/product-hunt.svg";
-import elle from "../../../../public/elle-logo.svg";
+import one from "../../../../public/icons/1.png";
+import two from "../../../../public/icons/2.png";
+import three from "../../../../public/icons/3.png";
+import four from "../../../../public/icons/4.png";
+import five from "../../../../public/icons/5.png";
+import six from "../../../../public/icons/6.png";
+import seven from "../../../../public/icons/7.png";
+import eight from "../../../../public/icons/8.png";
+import nine from "../../../../public/icons/9.png";
+import ten from "../../../../public/icons/10.png";
+import eleven from "../../../../public/icons/11.png";
+import twelve from "../../../../public/icons/12.png";
+
+
 
 export const sustainabilityData = [
   {
@@ -63,8 +76,19 @@ export const studioProjectData = [
 ];
 
 export const logos = [
-  { src: highSnobiety, alt: "High Snobiety Logo" },
-  { src: gq, alt: "GQ Logo" },
-  { src: productHunt, alt: "Product Hunt Logo" },
-  { src: elle, alt: "Elle Logo" },
+  { src: one, alt: "tech 1" },
+  { src: two, alt: "tech 2" },
+  { src: three, alt: "tech 3" },
+  { src: four, alt: "tech 4" },
+  { src: five, alt: "tech 5" },
+  { src: six, alt: "tech 6" },
+  { src: seven, alt: "tech 7" },
+  { src: eight, alt: "tech 8" },
+  { src: nine, alt: "tech 9" },
+  { src: ten, alt: "tech 10" },
+  { src: eleven, alt: "tech 11" },
+  { src: twelve, alt: "tech 12" },
+  // { src: gq, alt: "GQ Logo" },
+  // { src: productHunt, alt: "Product Hunt Logo" },
+  // { src: elle, alt: "Elle Logo" },
 ];

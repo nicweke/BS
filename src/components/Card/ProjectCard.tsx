@@ -97,7 +97,7 @@ const ProjectCard = ({
     <Link
       href={linkUrl}
       passHref
-      target="_blank"
+      target="_self"
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
     >

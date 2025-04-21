@@ -30,11 +30,11 @@ const NavigationLinks = ({ className = "" }: NavigationLinksProps) => {
         <Button
           className={cn("rounded-3xl py-1 px-2 h-fit", {
             "bg-transparent hover:bg-zinc-300 text-black":
-              pathname !== "/agency", // Apply bg-transparent if pathname is not '/agency'
+              pathname !== "/creative", // Apply bg-transparent if pathname is not '/agency'
           })}
           asChild
         >
-          <Link href="/agency">
+          <Link href="/creative">
             <ParagraphText text="Creative & Visual Design" mode="sm" className="font-medium" />
           </Link>
         </Button>
@@ -46,7 +46,7 @@ const NavigationLinks = ({ className = "" }: NavigationLinksProps) => {
           asChild
         >
           <Link href="/contact">
-            <ParagraphText text="Contact Us" mode="sm" className="font-medium" />
+            <ParagraphText text="Get in Touch" mode="sm" className="font-medium" />
           </Link>
         </Button>
        

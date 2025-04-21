@@ -4,6 +4,7 @@ import HeaderText from "@/components/Text/HeaderText";
 import ParagraphText from "@/components/Text/ParagraphText";
 import Footer from "@/components/Footer";
 import Navigation from "@/components/Navigation/Navigation";
+import Image from "next/image";
 
 const HeroSection: React.FC = () => {
   return (
@@ -22,11 +23,31 @@ const HeroSection: React.FC = () => {
         <Spacer spaceingAmount={4} />
         <ParagraphText
           className="font-medium"
-          text="Shoot us an email or you can also schedule a call with us."
+          text="Feel free to drop us an email, schedule a call or simply fill out the contact form on the right—we’d love to hear your ideas and tailor a solution just for you."
           // text="We deliver high-impact creative solutions for fashion, lifestyle, and luxury brands by seamlessly blending strategic branding with compelling visual storytelling. Our services include Graphic Design, Logo Design & Visual Identity, Branding & Rebranding, Motion Graphics, Photography & Product Shoots, Copywriting (web, ads, landing pages), Blog & Article Writing, SEO Content Strategy, Video Production & Editing, Animation & Explainer Videos, and Voiceover & Scriptwriting."
         />
         <Spacer spaceingAmount={2} />
-        <ParagraphText className="font-medium" text="Let’s work together." />
+        <div className="flex items-center">
+          <Image
+            src={"/icons/call.png"}
+            alt="email"
+            width={20}
+            height={20}
+            className=" mr-2"
+          />
+          <ParagraphText className="font-medium" text="+254 705914174" />
+        </div>
+        <Spacer spaceingAmount={1} />
+        <div className="flex items-center">
+          <Image
+            src={"/icons/email.png"}
+            alt="email"
+            width={20}
+            height={20}
+            className=" mr-2"
+          />
+          <ParagraphText className="font-medium" text="33bsdesigns@gmail.com" />
+        </div>
       </div>
       <Footer className="hidden md:block" />
     </section>
@@ -34,6 +55,3 @@ const HeroSection: React.FC = () => {
 };
 
 export default HeroSection;
-
-
-

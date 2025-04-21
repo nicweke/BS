@@ -161,7 +161,7 @@ export default function ContactForm() {
         <Label htmlFor="budget">What is your budget range?</Label>
         <Input
           id="budget"
-          placeholder="e.g., Kshs 10,000–Kshs5,000 or 'Not sure yet'"
+          placeholder="e.g., Kshs 10,000–Kshs 50,000 or 'Not sure yet'"
           value={formData.budget}
           onChange={handleChange}
         />

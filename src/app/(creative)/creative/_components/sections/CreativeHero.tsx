@@ -23,10 +23,12 @@ const HeroSection: React.FC = () => {
         <ParagraphText
           className="font-medium"
           text="We create impactful visual and content solutions for brands—blending strategy and storytelling through design, branding, photography, video, copywriting, and animation."
-          // text="We deliver high-impact creative solutions for fashion, lifestyle, and luxury brands by seamlessly blending strategic branding with compelling visual storytelling. Our services include Graphic Design, Logo Design & Visual Identity, Branding & Rebranding, Motion Graphics, Photography & Product Shoots, Copywriting (web, ads, landing pages), Blog & Article Writing, SEO Content Strategy, Video Production & Editing, Animation & Explainer Videos, and Voiceover & Scriptwriting."
+
         />
         <Spacer spaceingAmount={2} />
-        <ParagraphText className="font-medium" text="Let’s work together." />
+        <ParagraphText className="font-medium" text="From design and branding to video, copy, and motion—we make every touchpoint work harder, speak louder, and connect deeper. Every detail is intentional, crafted to spark impact and leave a lasting impression.
+
+ " />
       </div>
       <Footer className="hidden md:block" />
     </section>

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Spacer from "@/components/Spacer";
 import HeaderText from "@/components/Text/HeaderText";

@@ -64,7 +64,7 @@ export default function ContactForm() {
     if (res.ok) {
       toast({
         title: 'Thank you!',
-        description: 'We’ve received your inquiry. Redirecting you home...',
+        description: 'Thank you for contacting us. We will be in touch shortly. Redirecting you home...',
       });
       setFormData({
         name: '',
@@ -94,7 +94,7 @@ export default function ContactForm() {
   return (
     <form onSubmit={handleSubmit} className="space-y-6 max-w-3xl mx-auto">
       <div className="space-y-2 text-center">
-        <h1 className="text-3xl font-bold">Let’s Build Something Great</h1>
+        <h1 className="text-3xl font-bold">Let&apos;s Build Something Great</h1>
         <p className="text-muted-foreground">Fill out the form so we can understand your vision.</p>
       </div>
 

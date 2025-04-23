@@ -23,7 +23,7 @@ const HeroSection: React.FC = () => {
         <Spacer spaceingAmount={4} />
         <ParagraphText
           className="font-medium"
-          text="Feel free to drop us an email, schedule a call or simply fill out the contact form on the right—we’d love to hear your ideas and tailor a solution just for you."
+          text="Feel free to drop us an email, schedule a call or simply fill out the contact form on the right—we would love to hear your ideas and tailor a solution just for you."
           // text="We deliver high-impact creative solutions for fashion, lifestyle, and luxury brands by seamlessly blending strategic branding with compelling visual storytelling. Our services include Graphic Design, Logo Design & Visual Identity, Branding & Rebranding, Motion Graphics, Photography & Product Shoots, Copywriting (web, ads, landing pages), Blog & Article Writing, SEO Content Strategy, Video Production & Editing, Animation & Explainer Videos, and Voiceover & Scriptwriting."
         />
         <Spacer spaceingAmount={2} />

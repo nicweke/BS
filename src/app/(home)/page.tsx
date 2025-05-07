@@ -27,9 +27,9 @@ const Home: React.FC = () => {
         <Container className="md:flex sm:justify-between lg:justify-end md:space-x-10 md:relative md:w-full">
           <HeroSection />
           <div className="md:w-6/12 lg:w-full ">
-            <div className="w-full flex justify-end">
+            {/* <div className="w-full flex justify-end">
               <NavigationLinks className="w-fit py-8 hidden md:block" />
-            </div>
+            </div> */}
             <Spacer spaceingAmount={8} className="md:hidden" />
             <ProjectSection />
             <FeaturedSection />

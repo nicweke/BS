@@ -67,29 +67,61 @@ const Intro = () => {
   );
 
   return (
-    <div ref={introRef} className="relative invisible md:block">
-      <div
-        ref={firstLayerRef}
-        className="h-screen w-full bg-black absolute top-0 left-0 z-20"
-      ></div>
-      <div
-        ref={secondLayerRef}
-        className="h-screen w-full bg-white absolute top-0 left-0 z-10"
-      ></div>
-      <div
-        ref={mainLayerRef}
-        className="h-screen w-full flex bg-black justify-center 
-          items-center top-0 left-0 z-0  space-x-2"
-      >
-        <Image src="/logo1.png" alt="Logo" width={100} height={100}  />
-        <ParagraphText
-          ref={paragraphRef}
-          text="BS Designs"
-          mode="7xl"
-          className="font-medium text-white"
-        />
-      </div>
-    </div>
+    // <div ref={introRef} className="relative invisible md:block">
+    //   <div
+    //     ref={firstLayerRef}
+    //     className="h-screen w-full bg-black absolute top-0 left-0 z-20"
+    //   ></div>
+    //   <div
+    //     ref={secondLayerRef}
+    //     className="h-screen w-full bg-white absolute top-0 left-0 z-10"
+    //   ></div>
+    //   <div
+    //     ref={mainLayerRef}
+    //     className="h-screen w-full flex bg-black justify-center 
+    //       items-center top-0 left-0 z-0  space-x-2"
+    //   >
+    //     <Image src="/logo1.png" alt="Logo" width={100} height={100}  />
+    //     <ParagraphText
+    //       ref={paragraphRef}
+    //       text="BS Designs"
+    //       mode="7xl"
+    //       className="font-medium text-white"
+    //     />
+    //   </div>
+    // </div>
+
+    <div ref={introRef} className="relative block w-full h-screen">
+  <div
+    ref={firstLayerRef}
+    className="absolute top-0 left-0 w-full h-full bg-black z-20"
+  ></div>
+
+  <div
+    ref={secondLayerRef}
+    className="absolute top-0 left-0 w-full h-full bg-white z-10"
+  ></div>
+
+  <div
+    ref={mainLayerRef}
+    className="absolute top-0 left-0 w-full h-full flex flex-col sm:flex-row justify-center items-center bg-black z-0 space-y-4 sm:space-y-0 sm:space-x-2 px-4"
+  >
+    <Image
+      src="/logo1.png"
+      alt="Logo"
+      width={80}
+      height={80}
+      className="w-20 h-20 sm:w-[100px] sm:h-[100px]"
+    />
+    <ParagraphText
+      ref={paragraphRef}
+      text="BS Designs"
+      mode="7xl"
+      className="font-medium text-white text-center"
+    />
+  </div>
+</div>
+
   );
 };
 

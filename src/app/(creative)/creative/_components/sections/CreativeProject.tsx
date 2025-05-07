@@ -8,9 +8,9 @@ import ProjectCard from "@/components/Card/ProjectCard";
 const ProjectSection = () => {
   return (
     <section className=" md:w-6/12 lg:w-full ">
-      <div className="w-full flex justify-end">
+      {/* <div className="w-full flex justify-end">
         <NavigationLinks className="w-fit py-8 hidden md:block" />
-      </div>
+      </div> */}
       <Spacer spaceingAmount={8} className="md:hidden" />
       <div className=" flex flex-col space-y-9 ">
         <RenderData data={agencyProjectData}>
